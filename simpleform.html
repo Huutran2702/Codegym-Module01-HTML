@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simpleform</title>
+</head>
+<body>
+    <form action="/simpleform.html" method="GET" class="wyfoo">
+        <h2>Order Form</h2>
+        <p>What would you like to buy?</p>
+        <select>
+            <option value="">A</option>
+            <option >B (+ 0.5$)</option>
+            <option >C (+ 0.5$)</option>
+        </select>
+       <p> How many would you like order?</p>
+       <input type="radio" name="rd"> 1- $10 <br>
+       <input type="radio" name="rd"> 2- $20  <br>
+       <input type="radio" name="rd"> 3- $30
+       <h2>Name <span style="color: red;">*</span></h2>
+       <input type="text" name="First Name" placeholder="FirstName" size="15">
+       <input type="text" name="LastName" placeholder="LastName" size="15">
+       <h2>Email</h2>
+       <input type="text" name="email" size="35">
+       <h2>Phone Number</h2>
+       <input type="text" name="Phone1" size="5"> -
+       <input type="text" name="Phone2" size="5"> -
+       <input type="text" name="Phone3" size="5"> <br>
+     <p> <input type="button" value="Sumit"> </p> 
+    </form>
+    <style>
+        .wyfoo {
+            font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+        }
+
+    </style>
+</body>
+</html>
